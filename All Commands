@@ -1,0 +1,29 @@
+All Commands for add code from the loacl pc repo to the Remote repo or the github 
+step 1:
+initialize the repo to the code/add new repo to the code 
+command : git init
+
+step 2:
+chek status /set directory  on which you have to perform  the task /add file or folders within them 
+command : cd           (change directory)
+command : cd ..        (Exist from the directory)
+command : git status   (Status are UNTRACKED : files that git does not track. MODIFIED : Chnaged file .UNMODIFIED :Unchanged .STAGED : File ready to Commit. )
+
+step 3:
+add content into the file modify them then add or commit.
+command : git add .               (add all files  to the Local Repo)
+command : git add filename.txt    (add one by one file using their names )
+
+step 4:
+commit means the file is stored or saved on in loacal repo.
+command : git commit -m "Message is important"  (Message given into the box that is what actually done in that file which we save )
+
+step 5:
+for push the code into remote repo i.e github copy address of the repo
+command : git remote add origin main linkofrepo...
+command : git push origin main
+
+step 6:
+if the loacal repo or the remote repo are not match like content or the history betn them , This happens beacuse we create README FILE in the Remote repo of github and the same files are not create or available in the local repo . then use 
+command : git pull origin main --allow-unrelated-histories  (use this flag for removing the error then use )
+command : git push origin main
