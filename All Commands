@@ -20,7 +20,7 @@ command : git commit -m "Message is important"  (Message given into the box that
 
 step 5:
 for push the code into remote repo i.e github copy address of the repo
-command : git remote add origin main linkofrepo...
+command : git remote add origin linkofrepo...
 command : git push origin main
 
 step 6:
